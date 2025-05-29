@@ -24,7 +24,7 @@ while True:
 
         cv2.rectangle(image,(x1,y1) , (x2,y2) , color ,2)
         cv2.putText(image,
-                    "sumit",
+                    "Face",
                     (x1,y2+20),
                     cv2.FONT_HERSHEY_SIMPLEX,
                     1,
